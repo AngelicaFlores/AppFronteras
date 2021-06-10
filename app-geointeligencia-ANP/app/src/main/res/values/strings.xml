@@ -31,7 +31,26 @@
     <string name="q6_3">Revistas</string>
     <string name="q6_4">Agencias de Viajes</string>
 
-    <string name="q7">7. ¿Ha tenido referencia del ANP por recomendación de alguna red social? </string>
+    <string name="q7">7. ¿Cuántas veces ha visitado el ANP? </string>
+    <string name="rb7_1">0</string>
+    <string name="rb7_2">1 vez</string>
+    <string name="rb7_3">2 veces</string>
+    <string name="rb7_4">3 o más veces</string>
+
+    <string name="q8">8. ¿Cuántas personas le acompañan? </string>
+    <string name="rb8_1">0</string>
+    <string name="rb8_2">De 1 a 3 personas</string>
+    <string name="rb8_3">De 4 a 6 personas</string>
+    <string name="rb8_4">De 7 a 9 personas</string>
+    <string name="rb8_5">10 o más personas</string>
+
+    <string name="q9">9. Medio de transporte en el que llegó al ANP: </string>
+    <string name="rb9_1">Automóvil particular</string>
+    <string name="rb9_2">Transporte público</string>
+    <string name="rb9_3">Vehículo de un tour</string>
+    <string name="rb9_4">Bicicleta</string>
+    <string name="rb9_5">Otro</string>
+
 
 
 
@@ -42,5 +61,10 @@
     </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
 
 </resources>

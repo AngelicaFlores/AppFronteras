@@ -27,83 +27,104 @@
                 android:inputType=""
                 android:text="Servicios en el ANP"
                 android:textAlignment="center"
-                android:textColor="#F8F8F8"
+                android:textColor="@color/letra"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/et_Intro_servicios"
                 android:layout_width="match_parent"
-                android:layout_height="132dp"
+                android:layout_height="89dp"
                 android:ems="10"
-                android:text="¡Hola de nuevo! Ahora que ha podido conocer más sobre este bello lugar, deseamos conocer su opinión sobre los servicios que ofrecemos a nuestros visitantes."
+                android:text="Deseamos conocer su opinión sobre los servicios que ofrecemos a nuestros visitantes."
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                android:textColor="@color/md_blue_200"
+                android:textColor="@color/letra"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/et_q13_servicios"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="54dp"
                 android:text="13.Del siguiente listado, ¿Qué tipo de servicios pudo identificar dentro de la ANP? (PC)"
-                android:textSize="18sp" />
+                android:textSize="17sp" />
 
-            <CheckBox android:id="@+id/checkq13_a"
-                android:layout_width="wrap_content"
+            <CheckBox
+                android:id="@+id/checkq13_a"
+                android:layout_width="349dp"
                 android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
                 android:text="a. Tiendas"
-                android:onClick="onCheckboxClicked"/>
+                android:textColor="@color/letra"
+                android:textSize="14sp" />
 
             <CheckBox android:id="@+id/checkq13_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="b. Restaurantes, fondas, puestos de comida. "
-                android:onClick="onCheckboxClicked"/>
+                android:onClick="onCheckboxClicked"
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
             <CheckBox android:id="@+id/checkq13_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="c. Centro de visitantes y/o información turística"
-                android:onClick="onCheckboxClicked"/>
+                android:onClick="onCheckboxClicked"
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
             <CheckBox android:id="@+id/checkq13_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="d. Sanitarios "
-                android:onClick="onCheckboxClicked"/>
+                android:onClick="onCheckboxClicked"
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
             <CheckBox android:id="@+id/checkq13_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="e. Hoteles"
-                android:onClick="onCheckboxClicked"/>
+                android:onClick="onCheckboxClicked"
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
 
             <CheckBox android:id="@+id/checkq13_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="f. Botes de basura"
-                android:onClick="onCheckboxClicked"/>
+                android:onClick="onCheckboxClicked"
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
 
             <CheckBox android:id="@+id/checkq13_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="g. Guia de turstas"
-                android:onClick="onCheckboxClicked"/>
+                android:onClick="onCheckboxClicked"
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
 
             <CheckBox android:id="@+id/checkq13_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="h. Renta de equipo especializado"
+                android:textColor="@color/letra"
+                android:textSize="14sp"
                 android:onClick="onCheckboxClicked"/>
 
             <CheckBox android:id="@+id/checkq13_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="i.Vigilancia"
+                android:textColor="@color/letra"
+                android:textSize="14sp"
                 android:onClick="onCheckboxClicked"/>
 
             <CheckBox android:id="@+id/checkq13_j"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="j. Servicios de limpieza"
+                android:textColor="@color/letra"
+                android:textSize="14sp"
                 android:onClick="onCheckboxClicked"/>
 
 
@@ -112,6 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="14. ¿Cómo califica los aspectos siguientes?"
+                android:textColor="@color/letra"
                 android:textSize="18sp" />
 
             <TextView
@@ -119,12 +141,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="a. Precio"
+                android:textColor="@color/letra"
                 android:textSize="14sp" />
 
             <RadioGroup
                 android:id="@+id/rg_q14_servicios_a"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="@color/letra"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -132,35 +156,45 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"
+                    android:text="@string/uno" />
 
                 <RadioButton
                     android:id="@+id/rb14_a_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"
+                    android:text="@string/dos" />
 
                 <RadioButton
                     android:id="@+id/rb14_a_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"
+                    android:text="@string/tres" />
 
                 <RadioButton
                     android:id="@+id/rb14_a_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"
+                    android:text="@string/cuatro" />
 
                 <RadioButton
                     android:id="@+id/rb14_a_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="5" />
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"
+                    android:text="@string/cinco" />
 
             </RadioGroup>
 
@@ -170,48 +204,60 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="b. Sabor"
-                android:textSize="14sp" />
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
 
             <RadioGroup
                 android:id="@+id/rg_q14_servicios_b"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                >
 
                 <RadioButton
                     android:id="@+id/rb14_b_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:text="@string/uno"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_b_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:text="@string/dos"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_b_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:text="@string/tres"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_b_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cuatro"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_b_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cinco"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
             </RadioGroup>
 
@@ -229,42 +275,53 @@
                 android:id="@+id/rg_q14_servicios_c"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                >
 
                 <RadioButton
                     android:id="@+id/rb14_c_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:text="@string/uno"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_c_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:text="@string/dos"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_c_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:text="@string/tres"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_c_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cuatro"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_c_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cinco"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
             </RadioGroup>
 
@@ -286,35 +343,45 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:text="@string/uno"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_d_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:text="@string/dos"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_d_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:text="@string/tres"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_d_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cuatro"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_d_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cinco"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
             </RadioGroup>
 
@@ -323,7 +390,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="d. Medidas de higiene"
-                android:textSize="14sp" />
+                android:textColor="@color/letra"
+                android:textSize="14sp"/>
 
             <RadioGroup
                 android:id="@+id/rg_q14_servicios_e"
@@ -336,35 +404,45 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:text="@string/uno"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_e_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:text="@string/dos"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_e_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:text="@string/tres"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_e_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cuatro"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_e_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cinco"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
             </RadioGroup>
 
@@ -387,35 +465,45 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:text="@string/uno"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_f_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:text="@string/dos"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_f_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:text="@string/tres"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_f_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="4"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_f_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cinco"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
             </RadioGroup>
 
@@ -437,35 +525,45 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="1" />
+                    android:text="@string/uno"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_g_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="2" />
+                    android:text="@string/dos"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_g_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3" />
+                    android:text="@string/tres"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_g_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cuatro"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
                 <RadioButton
                     android:id="@+id/rb14_g_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="4" />
+                    android:text="@string/cinco"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
 
             </RadioGroup>
 
