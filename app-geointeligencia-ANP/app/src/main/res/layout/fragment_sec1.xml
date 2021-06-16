@@ -459,6 +459,55 @@
                     android:textSize="14sp"/>
 
             </RadioGroup>
+
+            <TextView
+                android:id="@+id/q10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:text="@string/q10" />
+
+            <RadioGroup
+                android:id="@+id/rg_q10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb10_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb10_1"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb10_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb10_2"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb10_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb10_3"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb10_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rb10_4"
+                    android:textColor="@color/letra"
+                    android:textSize="14sp"/>
+
+
+            </RadioGroup>
+
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
